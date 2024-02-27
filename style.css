@@ -1,0 +1,44 @@
+body{
+  background-image:url(/img/background4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+   }
+.navbar{
+    position: relative;
+    position: sticky;
+    top: 0px;
+    z-index: 4;
+}
+
+.wrapper{
+  min-height: 200px;
+  min-width:100%;
+  /* max-width: fit-content; */
+  border: 1px solid whitesmoke;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.wrapper::-webkit-scrollbar{
+  width: 0;
+}
+.wrapper{
+  width: 110px;
+  height: 110px;
+  line-height: 110px;
+  background-color: aliceblue;
+  margin-right: 2px;
+}
+.list{
+  background-color: black;
+  color: whitesmoke;
+  
+}
+ul li { margin-left: 100px;
+       margin-top: 10px;
+      } 
+#hr{
+  text-decoration: underline;
+}      
